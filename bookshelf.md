@@ -9,9 +9,7 @@ layout: page
 <p>
 I've also included links to some of my favorite tweets that have taught me so many incredible lessons. Twitter, my favorite social media platform, has taught me in so many ways in the past and I'd like to share with you the most thought provoking ones.</p>
 
-<p> My collection is a ~constant work in progress~ especially after the promise I made to my self in 2017 to read more:
-
-
+<p> My collection is a ~constant work in progress~ and growing ever since my 2017 New Year's resolution to read more:
 
 </p>
 
@@ -19,7 +17,7 @@ I've also included links to some of my favorite tweets that have taught me so ma
 <h2>Books</h2>
 
 <ul class="skill-list">
-	<li>Lorem Lorem/li>
+	<li>Lorem Lorem </li>
 </ul>
 
 <h2> Articles </h2>
