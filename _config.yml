@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/docs/NITI PAUDYAL-RESUME.pdf
+resume-url: assets/docs/resume.pdf
 
 url: https://niti.github.io
 # your url: http://USERNAME.github.io
