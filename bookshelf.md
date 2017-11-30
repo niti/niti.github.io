@@ -2,6 +2,12 @@
 title: Bookshelf
 layout: page
 ---
+
+<h4> Stay tuned for a list of my favorite books, articles, and tweets that I constantly send out to my friends and family. </h4>
+
+<!--
+
+
 <h1> What am I reading? </h1>
 
 <p> I've always loved reading. I've included a list of my favorite books and articles that I constantly send to my friends and family. </p>
@@ -35,3 +41,6 @@ I've also included links to some of my favorite tweets that have taught me so ma
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
+
+
+-->

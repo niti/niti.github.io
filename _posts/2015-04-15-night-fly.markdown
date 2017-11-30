@@ -1,0 +1,49 @@
+---
+title: "Night Fly"
+layout: post
+date: 2015-04-15 22:10
+tag: uva
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "an iOS application where Snapchat meets Yelp"
+category: project
+author: niti
+externalLink: false
+---
+
+In the Fall of 2015, I took a Network Building for Entrepurenurs class as a part of my Engineering Business Minor. The class was focused on building up and expanding our current networks with weekly requirements and assignments to meet new people and go beyond our comfort zone by leveraging various mediums of communication or by tapping into different pools and types of networks we were affiliated with or not affiliated with.
+
+The course also required a semester long project. It could be anything, as long as we perused a "venture." Throughout the semester, we'd recieve feedback that would almost always force us to talk to new person to further the venture. Along with a fellow classmate, I teamed up with a few students in the McIntire School of Commerce to build an iOS application written in Swift.
+
+We made an application called Night Fly (formerly called Nu-View), an app that lets you find out the real time environment of local bars, restaurants, music festivals etc around the University of Virginia community. Content is user generated, and pictures for each location are ranked based on user votes and only appear for a short period of time.
+
+The code for the project can be found on github [here](https://github.com/niti/Nu-View).
+
+A powerpoint presentation hilghighting the venture can be found [here]({{site.url}}/assets/docs/nightfly.pdf).
+
+A few screenshots of the application are shown below:
+
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{ site.url }}/assets/pictures/night_fly_mvp.png" alt="Alt Text">
+        <figcaption class="caption">NightFly MVP </figcaption>
+    </div>
+
+    <div class="toright">
+        <p> The Minimum Viable Project and the initial mock up of Night Fly. It contains a list of bars and restaurants and outlines the structure for the feed page. </p>
+    </div>
+</div>
+
+<div class="side-by-side">
+    <div class="toleft">
+        <p> The final product with a refreshed UI. The first screen is the initial login screen where users can login via Facebook, the second screen is a list of of bars & restaurants and the third screen is the feed of live pictures. The feed is where users can upload pictures by pressing the camera button on the top right, view pictures, and "like" pictures.
+        </p>
+    </div>
+
+    <div class="toright">
+        <img class="image" src="{{ site.url }}/assets/pictures/night_fly_final.png" alt="Alt Text">
+        <figcaption class="caption">NightFly Final Product</figcaption>
+    </div>
+</div>

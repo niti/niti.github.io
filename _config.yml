@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/docs/NITI PAUDYAL-RESUME.pdf
 
 url: https://niti.github.io
 # your url: http://USERNAME.github.io
@@ -101,6 +101,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
-
+  - jekyll-twitter-plugin
 jekyll-mentions:
     base_url: https://github.com

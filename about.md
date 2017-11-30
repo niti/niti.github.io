@@ -8,7 +8,7 @@ layout: page
 </p>
 
 <p>
-  I recently graduated from the University of Virginia with a B.S. in Computer Science and Engineering Business.
+  I graduated from the University of Virginia with a B.S. in Computer Science and Engineering Business in May of 2016.
   I've previously interned at Tesla Motors, and the CIA and worked with Microsoft as a Student Partner and Clarifai as a Clarifai Champion.
 </p>
 
@@ -17,5 +17,19 @@ layout: page
 </p>
 
 <p>
-	 I live in New York City and spend every vacation day possible traveling and exploring our incredible planet earth.
+  A few fun facts about me:
 </p>
+
+<ul>
+  <li>
+  I love sports. I'm a die hard fan of Boston Sports and UVa (my undergrad sports! Wahoowa!
+  </li>
+
+  <li>
+  I love working out, and am currently obsessed with Barry's Bootcamp. 
+  </li>
+
+  <li>
+  I love to travel. In 2016 alone, I travelled to Morocco, Portugal, Japan, and Tanzania where I summited Mt. Kilimanjaro.
+  </li>
+</ul>
