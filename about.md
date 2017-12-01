@@ -22,11 +22,11 @@ layout: page
 
 <ul>
   <li>
-  I love sports. I'm a die hard fan of Boston Sports and UVa (my undergrad sports! Wahoowa!
+  I love sports. I'm a die hard fan of Boston Sports and UVa (my undergrad) sports. Wahoowa!
   </li>
 
   <li>
-  I love working out, and am currently obsessed with Barry's Bootcamp. 
+  I love working out, and am currently obsessed with Barry's Bootcamp.
   </li>
 
   <li>
