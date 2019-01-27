@@ -33,7 +33,7 @@ layout: page
   </li>
 
   <li>
-  I love working out, and am currently obsessed with Barry's Bootcamp.
+  I love working out and am currently obsessed with Barry's Bootcamp.
   </li>
 
   <li>
