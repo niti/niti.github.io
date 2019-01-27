@@ -10,7 +10,7 @@ layout: page
 <p>
   I graduated from the University of Virginia with a B.S. in Computer Science and Engineering Business in May of 2016.
 
-  I've previously interned at Tesla, and the CIA and worked with Microsoft as a Student Partner and Clarifai as a Clarifai Champion.
+  I've previously interned at Tesla, and the CIA. I've worked with Microsoft as a Student Partner and Clarifai as a Clarifai Champion.
 </p>
 
 <p>
