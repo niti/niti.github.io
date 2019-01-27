@@ -29,7 +29,7 @@ layout: page
   </li>
 
   <li>
-  I love sports. I'm a die hard fan of UVa (my undergrad) sports. Wahoowa!
+  I love sports. I'm a die hard fan of UVa sports. Wahoowa!
   </li>
 
   <li>
