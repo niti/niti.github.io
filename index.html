@@ -1,40 +1,60 @@
----
-layout: page
-title: Home
----
-
-<p>
-  Hi. I'm Niti. I work as a Machine Learning Engineer at Spotify in New York City.
-</p>
-
-
-<p>
-  A few fun facts about me:
-</p>
-
-<ul>
-
-  <li>
-  I was born in Kathmandu, Nepal and moved to the U.S. when I was five! 
-  </li>
-
-  <li>
-  I love sports. I'm a die hard fan of UVa sports. Wahoowa!
-  </li>
-
-  <li>
-  I ran the New York City Marathon in 2019. 
-  </li>
-
-  <li>
-  I love working out at Barry's Bootcamp.
-  </li>
-
-  <li>
-  I love travelling, and always look for an excuse to travel. I've been fortunate to have travelled extensively since graduating from college. I was able to cross off two big bucket list items by visiting Japan, Vietnam, and summiting Mt. Kilimanjaro. 
-  </li>
-
-</ul>
-</p>
-
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="hi, it's @niti. something new, soon...">
+  <meta name="color-scheme" content="dark">
+  <title>@niti</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { background: #080808; color: #f5f5f5; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 2rem; font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: 1rem; line-height: 1.8; -webkit-font-smoothing: antialiased; }
+    main { width: min(100%, 30rem); }
+    h1 { margin: 0; font-size: clamp(1.4rem, 5vw, 1.8rem); font-weight: 600; letter-spacing: -.04em; }
+    h1 { min-height: 1.8em; }
+    .is-typing::after { content: ""; display: inline-block; height: .9em; margin-left: .12em; border-right: .07em solid currentColor; }
+    @media (prefers-reduced-motion: reduce) { .is-typing::after { display: none; } }
+    .soon { margin: .65rem 0 3rem; min-height: 1.8em; color: #b8b8b8; }
+    .contact { color: #aaa; margin: 0; }
+    .email { color: #f5f5f5; overflow-wrap: anywhere; }
+    footer { margin-top: 3rem; font-size: .875rem; color: #999; }
+    ::selection { background: #eee; color: #080808; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 aria-label="hi, it's @niti."><span class="typing" aria-hidden="true">hi, it's @niti.</span></h1>
+    <p class="soon">something new, soon...</p>
+    <p class="contact">in the meantime, you can reach me at<br><span class="email">niti.paudyal [at] gmail.com</span></p>
+    <footer>as always, all views are my own.</footer>
+  </main>
+  <script>
+    const greeting = document.querySelector('.typing');
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const message = greeting.textContent;
+    let frame;
+    function finish() {
+      window.cancelAnimationFrame(frame);
+      greeting.textContent = message;
+      greeting.classList.remove('is-typing');
+    }
+    if (!motion.matches) {
+      const letters = Array.from(message);
+      const duration = 2000;
+      let started;
+      greeting.textContent = '';
+      greeting.classList.add('is-typing');
+      function typeNext(now) {
+        started ??= now;
+        const position = Math.min(letters.length, Math.floor((now - started) / duration * letters.length));
+        greeting.textContent = letters.slice(0, position).join('');
+        if (position < letters.length) frame = window.requestAnimationFrame(typeNext);
+        else finish();
+      }
+      frame = window.requestAnimationFrame(typeNext);
+      motion.addEventListener('change', finish, { once: true });
+    }
+  </script>
+</body>
+</html>
